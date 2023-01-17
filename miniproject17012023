@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T07:27:12.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="RnAyFVTxoAYWWw05EMqF" type="github"><diagram id="xtR87hkK43y9dVQq6q21">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-17T08:12:09.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="5IlqhXpkR4NfKzXSczHe" type="github">
+  <diagram id="mcBCFOdGwGB3KHaBOgfm" name="Page-1">
+    <mxGraphModel dx="1434" dy="2899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-2" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;sid = (P,sid`) = (v1,v2,..vn,O1,O2,...,On)&amp;nbsp; &amp;nbsp;Session Identifier&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;reqid = credential request&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;vid = credential show&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;F&lt;sub style=&quot;font-size: 12px;&quot;&gt;ac&amp;nbsp;&lt;/sub&gt;&amp;nbsp;has lists&amp;nbsp; L&lt;sub style=&quot;font-size: 12px;&quot;&gt;Req&amp;nbsp;&lt;/sub&gt;&amp;nbsp;, L &lt;sub style=&quot;font-size: 12px;&quot;&gt;ver&lt;/sub&gt;, L&lt;sub style=&quot;font-size: 12px;&quot;&gt;Iss&lt;/sub&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;labelPosition=center;verticalLabelPosition=middle;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-1200" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-1450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-1420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-1510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-1450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="-Lw7ZKi3auRlfV7nsYYw-18" target="-Lw7ZKi3auRlfV7nsYYw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-18" value="Fac recieves &lt;b&gt;(sid,a,Φ)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-2055" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-19" value="FAC stores&lt;br&gt;&lt;b&gt;(reqid,U&lt;sub&gt;j&lt;/sub&gt;,a,V,O∪O&lt;sub&gt;k&lt;/sub&gt;)&lt;/b&gt; in &lt;b&gt;L&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;ISS&lt;/sub&gt;&lt;/span&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="555" y="-1870" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="-Lw7ZKi3auRlfV7nsYYw-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="-2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-21" value="Fac stores&lt;br&gt;&lt;b&gt;(reqid,U&lt;sub&gt;j&lt;/sub&gt;&amp;nbsp;,a,Φ)&lt;/b&gt;&amp;nbsp;&lt;br&gt;in &lt;b&gt;L&lt;sub&gt;req&lt;/sub&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-2060" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="-Lw7ZKi3auRlfV7nsYYw-23" target="-Lw7ZKi3auRlfV7nsYYw-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-23" value="&lt;div&gt;FAC stores&lt;/div&gt;&lt;div&gt;&lt;b&gt;(reqid,U&lt;sub&gt;j&lt;/sub&gt;,a,V∪V&lt;sub&gt;i&lt;/sub&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;,O)&lt;/b&gt; in &lt;b&gt;L&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;ISS&lt;/sub&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-2065" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="-Lw7ZKi3auRlfV7nsYYw-25" target="-Lw7ZKi3auRlfV7nsYYw-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-25" value="Outputs to Validators,Openers&lt;br&gt;&lt;b&gt;(sid,reqid,Φ,U&lt;sub&gt;j&lt;/sub&gt;&amp;nbsp;)&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-2045" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-26" value="&lt;h1&gt;Credential Request - Issuance Phase&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-2160" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-27" value="&lt;h1&gt;Opening Phase&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-1690" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Lw7ZKi3auRlfV7nsYYw-28" value="Fac recieves&lt;br&gt;&amp;nbsp;opening req&lt;br&gt;&amp;nbsp;&lt;b&gt;(sid,vid)&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-1590" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
