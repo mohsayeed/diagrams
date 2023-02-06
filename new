@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:38:41.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="n3X7E4JMMoPrFyqFCBux" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:47:02.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8SqFq4fY8TyEY6OsOfye" version="20.8.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="LCM Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="770" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="950" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="670" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="800" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-16" value="FULL ELIGIBILITY Check on New Card" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="nheYSB1DfgrMJzjzAoio-14">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -48,7 +48,7 @@
           <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;fontSize=9;" vertex="1" parent="nheYSB1DfgrMJzjzAoio-1">
-          <mxGeometry x="45" y="570" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="570" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-3" value="Credit Card Product Transfer&#xa;eventType ,cardNum,&#xa;tsysAccountid,&#xa;tsysCustomerld,&#xa;alternatePartyld,&#xa;newCreditProductCode ,oldCreditProductCode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.14;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Verdana;fontSize=8;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="0.0119" relative="1" as="geometry">
@@ -113,14 +113,28 @@
         <mxCell id="nheYSB1DfgrMJzjzAoio-15" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="nheYSB1DfgrMJzjzAoio-14">
           <mxGeometry x="55" y="55" width="10" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="nheYSB1DfgrMJzjzAoio-19" value="If no active linked cards" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="630" width="550" height="140" as="geometry" />
+        <mxCell id="nheYSB1DfgrMJzjzAoio-19" value="IF New Card is Eligible For linking" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="550" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-23" value="Insert Entry in PPAD table as ACTIVE" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="0.0013" width="80" relative="1" as="geometry">
             <mxPoint x="355" y="730" as="sourcePoint" />
             <mxPoint x="754.5" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-24" value="Insert Entry in CARD_IDENTIFICATION table&amp;nbsp;table referencing&lt;br&gt;&amp;nbsp;the same instrument_reference_id , new ppad_id&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;entryX=0.927;entryY=0.714;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nheYSB1DfgrMJzjzAoio-19">
+          <mxGeometry x="0.0013" width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="770" as="sourcePoint" />
+            <mxPoint x="749.75" y="770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-26" value="IF New Card is Eligible For linking" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="870" width="550" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-27" value="Loyalty Partner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="860" width="90" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
