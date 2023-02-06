@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:31:36.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WS0C9uffF2ROKPngqyqj" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:33:17.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="amrjY9DPxKckSdl9CfWy" version="20.8.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,6 +85,12 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-14" value="Profile Management" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-15" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="nheYSB1DfgrMJzjzAoio-14">
+          <mxGeometry x="55" y="55" width="10" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
