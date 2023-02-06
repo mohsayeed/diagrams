@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:47:02.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8SqFq4fY8TyEY6OsOfye" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:54:55.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VdJZW-nUn-XvP0Aq_Hxx" version="20.8.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="LCM Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="950" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="990" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="800" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="890" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-16" value="FULL ELIGIBILITY Check on New Card" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="nheYSB1DfgrMJzjzAoio-14">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -32,6 +32,13 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="610" as="sourcePoint" />
             <mxPoint x="140" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-30" value="Unlinking Request&amp;nbsp;&amp;nbsp;Customer is not eligible&lt;br&gt;Outbound Service for LCM flows:&lt;br/&gt;o source: &quot;LCM&quot;:&lt;br/&gt;o reason code: &quot;LCM&quot;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5" target="nheYSB1DfgrMJzjzAoio-29">
+          <mxGeometry y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="840" as="sourcePoint" />
+            <mxPoint x="140" y="840" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="cardnum , tsysCustomerId, alternatePartyId, externalCustomerId, productType" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
@@ -130,11 +137,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nheYSB1DfgrMJzjzAoio-26" value="IF New Card is Eligible For linking" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="870" width="550" height="140" as="geometry" />
+        <mxCell id="nheYSB1DfgrMJzjzAoio-26" value="IF New Card is not Eligible For linking" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="490" height="150" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-27" value="Loyalty Partner" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="860" width="90" height="110" as="geometry" />
+          <mxGeometry x="520" y="850" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;fontSize=9;" vertex="1" parent="nheYSB1DfgrMJzjzAoio-27">
+          <mxGeometry x="40" y="50" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
