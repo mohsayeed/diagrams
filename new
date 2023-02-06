@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:24:52.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eyXa375VtN1jyjbHVlVa" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:31:36.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WS0C9uffF2ROKPngqyqj" version="20.8.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="LCM Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="380" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="610" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="280" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="450" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="cardnum , tsysCustomerId, alternatePartyId, externalCustomerId, productType" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry x="-0.0012" y="20" relative="1" as="geometry">
@@ -23,20 +23,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="callback" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="540" as="sourcePoint" />
-            <mxPoint x="130" y="585.2000122070312" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-1" value="Registration DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="710" y="70" width="100" height="620" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="nheYSB1DfgrMJzjzAoio-1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="470" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
         </mxCell>
         <mxCell id="nheYSB1DfgrMJzjzAoio-3" value="Credit Card Product Transfer&#xa;eventType ,cardNum,&#xa;tsysAccountid,&#xa;tsysCustomerld,&#xa;alternatePartyld,&#xa;newCreditProductCode ,oldCreditProductCode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.14;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Verdana;fontSize=8;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="0.0119" relative="1" as="geometry">
@@ -63,6 +54,36 @@
               <mxPoint x="560" y="270" />
             </Array>
             <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-9" value="Deactivate the&amp;nbsp;entry in CARD table using&lt;br&gt;&amp;nbsp;Masked Card Number + Product ID (Old CPC) + TSYS_Customer_ID +&lt;br&gt;TSYS_ACCOUNT_ID + DELETE_TS " style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="nheYSB1DfgrMJzjzAoio-1">
+          <mxGeometry x="0.0268" y="-40" width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="330" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-10" value="Deactivate the&amp;nbsp;entry in PPAD Table&amp;nbsp;&lt;br&gt;&amp;nbsp;by updating the PARTY_ACCESS_DEVICE_ROLE_CD as INACTIVE " style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="1">
+          <mxGeometry x="0.0244" width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="410" as="sourcePoint" />
+            <mxPoint x="760" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570.5" y="410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-12" value="Deactivate the&amp;nbsp;entry in CARD_IDENTIFICATION&amp;nbsp; table&lt;br&gt;&amp;nbsp;table by updating the status as INACTIVE and&lt;br/&gt;deleted_ts as current_ts" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="1">
+          <mxGeometry x="0.0244" width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="470" as="sourcePoint" />
+            <mxPoint x="760" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570.5" y="470" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
