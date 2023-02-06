@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T11:19:24.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_DZMZjjLigq8RVYZm-2S" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T11:24:52.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eyXa375VtN1jyjbHVlVa" version="20.8.10" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1900" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,15 +11,12 @@
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="LCM Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="330" height="360" as="geometry" />
+          <mxGeometry x="300" y="80" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="170" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="nheYSB1DfgrMJzjzAoio-5" value="In" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
-          <mxGeometry x="30" y="160" width="300" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="External Customer Ids, all active/inactive linked cards for all party ids" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="cardnum , tsysCustomerId, alternatePartyId, externalCustomerId, productType" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry x="-0.0012" y="20" relative="1" as="geometry">
             <mxPoint x="430" y="210" as="targetPoint" />
             <mxPoint x="750" y="200" as="sourcePoint" />
@@ -53,6 +50,19 @@
             <mxPoint x="360.0000000000001" y="179.99999999999994" as="sourcePoint" />
             <mxPoint x="703.1" y="179.99999999999994" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-6" value="If no active linked cards" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=9;width=100;height=30;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nheYSB1DfgrMJzjzAoio-8" value="NO Result Attribute" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontFamily=Verdana;fontSize=9;" edge="1" parent="1" source="nheYSB1DfgrMJzjzAoio-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="-0.0268" relative="1" as="geometry">
+            <mxPoint x="435" y="320" as="sourcePoint" />
+            <mxPoint x="355" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="270" />
+            </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
