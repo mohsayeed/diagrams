@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:00:16.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.17" etag="d39MSIA7s71IuNaZNjOf" type="github"><diagram name="Page-1" id="W5In3y5eQ8P48D8nQx9O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:11:27.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OBcFlTFcKZHVPdI8De7Y" version="20.8.17" type="github">
+  <diagram name="Page-1" id="W5In3y5eQ8P48D8nQx9O">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.142;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TlUWmV7IKkL7Ax3EIKNn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="210" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="236" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-6" value="1.Self Revocation&lt;br&gt;&amp;nbsp;of Credential," style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-3">
+          <mxGeometry x="-0.143" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.388;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-11" value="2. Recieve Self &lt;br&gt;Revocation Request&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-7">
+          <mxGeometry x="0.1115" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-2" value="BlockChain ,&amp;nbsp;△ (Dynamic Accumulator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="670" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-5" value="User" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-17" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="130" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-8" value="User" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="TlUWmV7IKkL7Ax3EIKNn-17">
+          <mxGeometry x="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-10" value="Validators" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="TlUWmV7IKkL7Ax3EIKNn-17">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-8" target="TlUWmV7IKkL7Ax3EIKNn-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-20" value="Get the &lt;br&gt;Aggregated y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-18">
+          <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.687;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-19" target="TlUWmV7IKkL7Ax3EIKNn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-23" value="Request to Update &lt;br&gt;the Validator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-22">
+          <mxGeometry x="-0.1791" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-19" value="y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;+ k&lt;sub&gt;i&lt;/sub&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
