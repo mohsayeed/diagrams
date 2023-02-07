@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:25:17.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Xp65tdXapcY5v3zUXNvR" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:26:46.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5tid7aG6dgzvULDEXALA" version="20.8.17" type="github">
   <diagram name="Page-1" id="W5In3y5eQ8P48D8nQx9O">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
             <mxPoint x="550" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-20" value="Get the &lt;br&gt;Aggregated y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-18">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-20" value="3 .Get the &lt;br&gt;Aggregated y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-18">
           <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -56,7 +56,7 @@
         <mxCell id="TlUWmV7IKkL7Ax3EIKNn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.687;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-19" target="TlUWmV7IKkL7Ax3EIKNn-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-23" value="Request to Update &lt;br&gt;the Validator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-22">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-23" value="4. Request to Update &lt;br&gt;the Accumulator" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-22">
           <mxGeometry x="-0.1791" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -70,7 +70,7 @@
             <mxPoint x="580" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-26" value="Update the Black List with k&lt;sub&gt;i&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-26" value="5. Update the Black List with k&lt;sub&gt;i&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="410" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TlUWmV7IKkL7Ax3EIKNn-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.707;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-2">
@@ -79,7 +79,7 @@
             <mxPoint x="614" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-28" value="Event Emiitter to &lt;br&gt;update Witness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-27">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-28" value="6. Event Emiitter to &lt;br&gt;update Witness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-27">
           <mxGeometry x="0.1906" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
