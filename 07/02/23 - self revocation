@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T08:11:27.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OBcFlTFcKZHVPdI8De7Y" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T08:25:17.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Xp65tdXapcY5v3zUXNvR" version="20.8.17" type="github">
   <diagram name="Page-1" id="W5In3y5eQ8P48D8nQx9O">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="TlUWmV7IKkL7Ax3EIKNn-2" value="BlockChain ,&amp;nbsp;△ (Dynamic Accumulator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="140" y="380" width="670" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-5" value="User" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-5" value="User i" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="200" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TlUWmV7IKkL7Ax3EIKNn-17" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
@@ -61,8 +61,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-19" value="y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;+ k&lt;sub&gt;i&lt;/sub&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-19" value="y&lt;sub&gt;a&lt;/sub&gt;&amp;nbsp;+ k&lt;sub&gt;i&lt;/sub&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="560" y="140" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-24" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="490" as="sourcePoint" />
+            <mxPoint x="580" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-26" value="Update the Black List with k&lt;sub&gt;i&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.707;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TlUWmV7IKkL7Ax3EIKNn-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="550" as="sourcePoint" />
+            <mxPoint x="614" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-28" value="Event Emiitter to &lt;br&gt;update Witness" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TlUWmV7IKkL7Ax3EIKNn-27">
+          <mxGeometry x="0.1906" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TlUWmV7IKkL7Ax3EIKNn-29" value="Other than user i , all other users update thier witnesses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
