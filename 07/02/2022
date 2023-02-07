@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T06:54:49.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="h4he17G_rgcYf4Xhzteg" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T06:57:29.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7Z9Abmu8Sra9UOclPr37" version="20.8.16" type="github">
   <diagram name="Page-1" id="Tjz-AqrlfwieIR5iktTJ">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u_vVUAo0XVa15aDOVm7K-55" value="Service&lt;br&gt;Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-54">
+        <mxCell id="u_vVUAo0XVa15aDOVm7K-55" value="9.Service&lt;br&gt;Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-54">
           <mxGeometry x="0.2313" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -145,7 +145,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u_vVUAo0XVa15aDOVm7K-48" value="Revoke Randomised Credential" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-47">
+        <mxCell id="u_vVUAo0XVa15aDOVm7K-48" value="&lt;b&gt;12. Revoke Randomised Credential&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-47">
           <mxGeometry x="0.2" y="1" relative="1" as="geometry">
             <mxPoint x="11" y="-12" as="offset" />
           </mxGeometry>
@@ -166,7 +166,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u_vVUAo0XVa15aDOVm7K-57" value="Issue Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-56">
+        <mxCell id="u_vVUAo0XVa15aDOVm7K-57" value="11. Issue Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-56">
           <mxGeometry x="0.2042" y="-2" relative="1" as="geometry">
             <mxPoint x="-12" y="191" as="offset" />
           </mxGeometry>
@@ -180,7 +180,7 @@
             <mxPoint x="300" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u_vVUAo0XVa15aDOVm7K-60" value="Validate&lt;br&gt;Service Req." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-59">
+        <mxCell id="u_vVUAo0XVa15aDOVm7K-60" value="10. Validate&lt;br&gt;Service Req." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u_vVUAo0XVa15aDOVm7K-59">
           <mxGeometry x="-0.3431" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
